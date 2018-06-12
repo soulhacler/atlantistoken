@@ -62,7 +62,7 @@ var known_miners = {
   "0x98b155d9a42791ce475acc336ae348a72b2e8714" : [ "0xBTCpool",         "http://0xBTCpool.com",           pool_colors.blue ],
   "0x5c37f5039d7195cc73c5597a0ecbc02488aec023" : [ "miningspeed.com",   "http://miningspeed.com",            	  pool_colors.green ],
   "0x02c8832baf93380562b0c8ce18e2f709d6514c60" : [ "mike.rs pool B",    "http://b.mike.rs",          	  pool_colors.green ],
-  "0x684bcCB903009bb25c968f3C28c40927a1525225" : [ "Mine0xBTC",         "http://mine0xbtc.eu",            pool_colors.darkpurple ],
+  "0x684bccb903009bb25c968f3c28c40927a1525225" : [ "GFire",         	"https://etherscan.io/address/0x684bccb903009bb25c968f3c28c40927a1525225",            pool_colors.darkpurple ],
   "0x20744acca6966c0f45a80aa7baf778f4517351a4" : [ "PoolOfD32th",       "http://0xbtc.poolofd32th.club",  pool_colors.darkred ],
   "0xd4ddfd51956c19f624e948abc8619e56e5dc3958" : [ "0xMiningPool",      "http://0xminingpool.com/",       pool_colors.teal ],
   "0x88c2952c9e9c56e8402d1b6ce6ab986747336b30" : [ "0xbtc.wolfpool.io", "http://wolfpool.io/",            pool_colors.red ],
