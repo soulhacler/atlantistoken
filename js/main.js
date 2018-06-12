@@ -57,7 +57,7 @@ var pool_colors = {
 
 
 var known_miners = {
-  "0xf3243babf74ead828ac656877137df705868fd66" : [ "Token Mining Pool", "http://TokenMiningPool.com",     pool_colors.orange ],
+  "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "Token Mining Pool", "http://TokenMiningPool.com",     pool_colors.orange ],
   "0x53ce57325c126145de454719b4931600a0bd6fc4" : [ "0xPool",            "http://0xPool.io",               pool_colors.purple ],
   "0x98b155d9a42791ce475acc336ae348a72b2e8714" : [ "0xBTCpool",         "http://0xBTCpool.com",           pool_colors.blue ],
   "0x363b5534fb8b5f615583c7329c9ca8ce6edaf6e6" : [ "mike.rs pool",      "http://mike.rs",            	  pool_colors.green ],
