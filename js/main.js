@@ -365,7 +365,7 @@ function updateStatsThatHaveDependencies(stats) {
   }
   supply_remaining_in_era = max_supply_for_era - current_supply; /* TODO: probably need to round to current mining reward */
   rewards_blocks_remaining_in_era = supply_remaining_in_era / current_reward;
-  el_safe('#SupplyRemaininginEra').innerHTML = "<b>" + supply_remaining_in_era.toLocaleString() + "</b> 0xBTC <span style='font-size:0.8em;'>(" + rewards_blocks_remaining_in_era + " blocks)</span>";
+  el_safe('#SupplyRemaininginEra').innerHTML = "<b>" + supply_remaining_in_era.toLocaleString() + "</b> ATA <span style='font-size:0.8em;'>(" + rewards_blocks_remaining_in_era + " blocks)</span>";
 
   /* time until next epoch ('halvening') */
   el_safe('#CurrentRewardEra').innerHTML += " <span style='font-size:0.8em;'>(next era: ~" + secondsToReadableTime(rewards_blocks_remaining_in_era * _IDEAL_BLOCK_TIME_SECONDS) + ")</div>";
