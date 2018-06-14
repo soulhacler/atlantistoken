@@ -58,7 +58,7 @@ var pool_colors = {
 
 var known_miners = {
   "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "Wolfpool.io", 		"http://wolfpool.io",     		  pool_colors.orange ],
-  "0x53ce57325c126145de454719b4931600a0bd6fc4" : [ "0xPool",            "http://0xPool.io",               pool_colors.purple ],
+  "0x0102f6ca7278e7d96a6d649da30bfe07e87155a3" : [ "0xPool",            "https://etherscan.io/address/0x0102f6ca7278e7d96a6d649da30bfe07e87155a3",               pool_colors.purple ],
   "0x98b155d9a42791ce475acc336ae348a72b2e8714" : [ "0xBTCpool",         "http://0xBTCpool.com",           pool_colors.blue ],
   "0x5c37f5039d7195cc73c5597a0ecbc02488aec023" : [ "H45HR8",   			"https://etherscan.io/address/0x5c37f5039d7195cc73c5597a0ecbc02488aec023",         pool_colors.green ],
   "0x02c8832baf93380562b0c8ce18e2f709d6514c60" : [ "mike.rs pool B",    "http://b.mike.rs",          	  pool_colors.green ],
