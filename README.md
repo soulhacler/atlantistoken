@@ -1,6 +1,8 @@
 # AtlantisToken-Stats
 Simple web site to show stats about the Atlantis ERC-20 token 
 
+Thanks to https://0x1d00ffff.github.io/
+
 
 #### TODO
 
