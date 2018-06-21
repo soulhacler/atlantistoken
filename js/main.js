@@ -59,7 +59,7 @@ var pool_colors = {
 var known_miners = {
   "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "H45H", 				"http://wolfpool.io",     		  pool_colors.orange ],
   "0x0102f6ca7278e7d96a6d649da30bfe07e87155a3" : [ "THC_Cookies",       "https://etherscan.io/address/0x0102f6ca7278e7d96a6d649da30bfe07e87155a3",               pool_colors.purple ],
-  "0x98b155d9a42791ce475acc336ae348a72b2e8714" : [ "0xBTCpool",         "http://0xBTCpool.com",           pool_colors.blue ],
+  "0xfd253db64F4f69b500B25E844092f6BB2B1d12eB" : [ "Wolfpool.io",       "http://ata.wolfpool.io",         pool_colors.blue ],
   "0x5c37f5039d7195cc73c5597a0ecbc02488aec023" : [ "H45HR8",   			"https://etherscan.io/address/0x5c37f5039d7195cc73c5597a0ecbc02488aec023",         pool_colors.green ],
   "0x02c8832baf93380562b0c8ce18e2f709d6514c60" : [ "mike.rs pool B",    "http://b.mike.rs",          	  pool_colors.green ],
   "0x684bccb903009bb25c968f3c28c40927a1525225" : [ "GFire",         	"https://etherscan.io/address/0x684bccb903009bb25c968f3c28c40927a1525225",            pool_colors.darkpurple ],
@@ -67,7 +67,7 @@ var known_miners = {
   "0xd4ddfd51956c19f624e948abc8619e56e5dc3958" : [ "0xMiningPool",      "http://0xminingpool.com/",       pool_colors.teal ],
   "0x88c2952c9e9c56e8402d1b6ce6ab986747336b30" : [ "Wolfpool.io", 		"http://wolfpool.io/",            pool_colors.orange ],
   "0x540d752a388b4fc1c9deeb1cd3716a2b7875d8a6" : [ "tosti.ro",          "http://tosti.ro/",               pool_colors.slate ],
-  "0xD565f102656b2fA32E54C85e93cED06dCC07d02D" : [ "Wolfpool.io",       "http://ata.Wolfpool.io",   	  pool_colors.brightred ],
+  "0xD565f102656b2fA32E54C85e93cED06dCC07d02D" : [ "Wolfpool.io",       "http://ata.wolfpool.io",   	  pool_colors.brightred ],
 
 }
 
