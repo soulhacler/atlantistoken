@@ -57,7 +57,7 @@ var pool_colors = {
 
 
 var known_miners = {
-  "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "H45H", 		"http://wolfpool.io",     		  pool_colors.orange ],
+  "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "H45H", 				"http://wolfpool.io",     		  pool_colors.orange ],
   "0x0102f6ca7278e7d96a6d649da30bfe07e87155a3" : [ "THC_Cookies",       "https://etherscan.io/address/0x0102f6ca7278e7d96a6d649da30bfe07e87155a3",               pool_colors.purple ],
   "0x98b155d9a42791ce475acc336ae348a72b2e8714" : [ "0xBTCpool",         "http://0xBTCpool.com",           pool_colors.blue ],
   "0x5c37f5039d7195cc73c5597a0ecbc02488aec023" : [ "H45HR8",   			"https://etherscan.io/address/0x5c37f5039d7195cc73c5597a0ecbc02488aec023",         pool_colors.green ],
@@ -67,16 +67,8 @@ var known_miners = {
   "0xd4ddfd51956c19f624e948abc8619e56e5dc3958" : [ "0xMiningPool",      "http://0xminingpool.com/",       pool_colors.teal ],
   "0x88c2952c9e9c56e8402d1b6ce6ab986747336b30" : [ "Wolfpool.io", 		"http://wolfpool.io/",            pool_colors.orange ],
   "0x540d752a388b4fc1c9deeb1cd3716a2b7875d8a6" : [ "tosti.ro",          "http://tosti.ro/",               pool_colors.slate ],
-  "0xbbdf0402e51d12950bd8bbd50a25ed1aba5615ef" : [ "ExtremeHash",       "http://0xbtc.extremehash.io/",   pool_colors.brightred ],
-  "0x7d28994733e6dbb93fc285c01d1639e3203b54e4" : [ "Wutime.com",        "http://wutime.com/",             pool_colors.royal ],
-  "0x02e03db268488716c161721663501014fa031250" : [ "xb.veo.network",    "https://xb.veo.network:2096/",   pool_colors.pink ],
-  "0xbf39de3c506f1e809b4e10e00dd22eb331abf334" : [ "xb.veo.network",    "https://xb.veo.network:2096/",   pool_colors.pink ],
-  "0x5404bd6b428bb8e326880849a61f0e7443ef5381" : [ "666pool",           "http://0xbtc.666pool.cn/",       pool_colors.grey ],
-  "0x6917035f1deecc51fa475be4a2dc5528b92fd6b0" : [ "PiZzA pool",        "http://gpu.PiZzA",               pool_colors.yellow ],
-  "0x693d59285fefbd6e7be1b87be959eade2a4bf099" : [ "PiZzA pool",        "http://gpu.PiZzA",               pool_colors.yellow ],
-  "0x697f698dd492d71734bcaec77fd5065fa7a95a63" : [ "PiZzA pool",        "http://gpu.PiZzA",               pool_colors.yellow ],
-  "0x69ebd94944f0dba3e9416c609fbbe437b45d91ab" : [ "PiZzA pool",        "http://gpu.PiZzA",               pool_colors.yellow ],
-  "0x69b85604799d16d938835852e497866a7b280323" : [ "PiZzA pool",        "http://gpu.PiZzA",               pool_colors.yellow ],
+  "0xD565f102656b2fA32E54C85e93cED06dCC07d02D" : [ "Wolfpool.io",       "http://ata.Wolfpool.io",   	  pool_colors.brightred ],
+
 }
 
 
