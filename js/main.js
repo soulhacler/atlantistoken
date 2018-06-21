@@ -65,9 +65,9 @@ var known_miners = {
   "0x684bccb903009bb25c968f3c28c40927a1525225" : [ "GFire",         	"https://etherscan.io/address/0x684bccb903009bb25c968f3c28c40927a1525225",            pool_colors.darkpurple ],
   "0x20744acca6966c0f45a80aa7baf778f4517351a4" : [ "PoolOfD32th",       "http://0xbtc.poolofd32th.club",  pool_colors.darkred ],
   "0xd4ddfd51956c19f624e948abc8619e56e5dc3958" : [ "0xMiningPool",      "http://0xminingpool.com/",       pool_colors.teal ],
-  "0x88c2952c9e9c56e8402d1b6ce6ab986747336b30" : [ "ATA.Wolfpool.io", 	"http://wolfpool.io/",            pool_colors.orange ],
+  "0x88c2952c9e9c56e8402d1b6ce6ab986747336b30" : [ "ata.Wolfpool.io", 	"http://wolfpool.io/",            pool_colors.orange ],
   "0x540d752a388b4fc1c9deeb1cd3716a2b7875d8a6" : [ "tosti.ro",          "http://tosti.ro/",               pool_colors.slate ],
-  "0xd565f102656b2fa32e54c85e93ced06dcc07d02d" : [ "Wolfpool.io",       "http://ata.wolfpool.io",   	  pool_colors.brightred ],
+  "0xfd253db64F4f69b500B25E844092f6BB2B1d12eB" : [ "Wolfpool.io",       "http://ata.wolfpool.io",   	  pool_colors.brightred ],
 
 }
 
