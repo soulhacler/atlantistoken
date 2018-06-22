@@ -59,9 +59,9 @@ var pool_colors = {
 var known_miners = {
   "0x4cda88a4ddfce160514f38e3f6adb88cfe40dd60" : [ "H45H", 				"http://wolfpool.io",     		  pool_colors.orange ],
   "0x0102f6ca7278e7d96a6d649da30bfe07e87155a3" : [ "THC_Cookies",       "https://etherscan.io/address/0x0102f6ca7278e7d96a6d649da30bfe07e87155a3",               pool_colors.purple ],
-  "0xfd253db64F4f69b500B25E844092f6BB2B1d12eB" : [ "Wolfpool.io Beta",     "http://ata.wolfpool.io",         pool_colors.blue ],
+  "0xfd253db64F4f69b500B25E844092f6BB2B1d12eB" : [ "Wolfpool.io Beta",  "http://ata.wolfpool.io",         pool_colors.blue ],
   "0x5c37f5039d7195cc73c5597a0ecbc02488aec023" : [ "H45HR8",   			"https://etherscan.io/address/0x5c37f5039d7195cc73c5597a0ecbc02488aec023",         pool_colors.green ],
-  "0x02c8832baf93380562b0c8ce18e2f709d6514c60" : [ "mike.rs pool B",    "http://b.mike.rs",          	  pool_colors.green ],
+  "0xe2ad5e52e93dbd53386d589952010510c66a9568" : [ "President T",    	"https://open.spotify.com/artist/1jVgvfKynkRWY4SymwtOBS?autoplay=true&v=A",          	  pool_colors.green ],
   "0x684bccb903009bb25c968f3c28c40927a1525225" : [ "GFire",         	"https://etherscan.io/address/0x684bccb903009bb25c968f3c28c40927a1525225",            pool_colors.darkpurple ],
   "0x20744acca6966c0f45a80aa7baf778f4517351a4" : [ "PoolOfD32th",       "http://0xbtc.poolofd32th.club",  pool_colors.darkred ],
   "0xd4ddfd51956c19f624e948abc8619e56e5dc3958" : [ "0xMiningPool",      "http://0xminingpool.com/",       pool_colors.teal ],
