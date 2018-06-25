@@ -636,6 +636,18 @@ function updateAllMinerInfo(eth, stats, hours_into_past){
       return new Date(date_of_last_mint.getTime() - ((last_reward_eth_block - eth_block)*_SECONDS_PER_ETH_BLOCK*1000)).toLocaleString()
     }
 
+    function get_gas_price_from_transaction(tx_hash) {
+        if(typeof(web3) !== 'undefined') {
+            web3.eth.getTransaction(tx_hash, function(e, r){
+                if(!e) {
+                    el_safe('#tx' + tx_hash).innerHTML = parseInt(web3.fromWei(r.gasPrice, 'Gwei'),10);
+                };
+            });
+        } else {
+            el_safe('#tx' + tx_hash).innerHTML = "~";
+        }
+    }
+
     /* fill in block info */
     var dt = new Date();
     var innerhtml_buffer = '<tr><th>Time (Approx)</th><th>Eth Block #</th>'
@@ -726,18 +738,6 @@ function getMinerInfoCSV(eth, stats, hours_into_past){
       /* TODO: use web3 instead, its probably more accurate */
       /* blockDate = new Date(web3.eth.getBlock(startBlock-i+1).timestamp*1000); */
       return new Date(date_of_last_mint.getTime() - ((last_reward_eth_block - eth_block)*_SECONDS_PER_ETH_BLOCK*1000)).toLocaleString()
-    }
-
-    function get_gas_price_from_transaction(tx_hash) {
-        if(typeof(web3) !== 'undefined') {
-            web3.eth.getTransaction(tx_hash, function(e, r){
-                if(!e) {
-                    el_safe('#tx' + tx_hash).innerHTML = parseInt(web3.fromWei(r.gasPrice, 'Gwei'),10);
-                };
-            });
-        } else {
-            el_safe('#tx' + tx_hash).innerHTML = "~";
-        }
     }
 
     /* fill in block info */
