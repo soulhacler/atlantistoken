@@ -665,13 +665,15 @@ function updateAllMinerInfo(eth, stats, hours_into_past){
       //log('hexcolor:', hexcolor, address_url);
 
       innerhtml_buffer  += '<tr><td>'
-        + get_date_from_eth_block(eth_block) + '</td><td>'
-        + '<a href="' + block_url + '">' + eth_block + '</td><td>'
-        + '<a href="' + transaction_url + '" title="' + tx_hash + '">'
-        + tx_hash.substr(0, 16) + '...</a></td><td align="right" style="text-overflow:ellipsis;white-space: nowrap;overflow: hidden;">'
-        + '<td id="tx'+ tx_hash + '">' + get_gas_price_from_transaction(tx_hash) + '</td>'
-        + miner_name_link + '</td></tr>';
-        //+ '</a></td></tr>';
+          + get_date_from_eth_block(eth_block) + '</td><td>'
+          + '<a href="' + block_url + '">' + eth_block + '</td><td>'
+          + '<a href="' + transaction_url + '" title="' + tx_hash + '">'
+          + tx_hash.substr(0, 16) + '...</a></td>'
+          + '<td id="tx'+ tx_hash + '">' + get_gas_price_from_transaction(tx_hash) + '</td>'
+          //+ '<td></td>''
+          + '<td align="right" style="text-overflow:ellipsis;white-space: nowrap;overflow: hidden;">'
+          + miner_name_link + '</td></tr>';
+      //+ '</a></td></tr>';
     });
     el('#blockstats').innerHTML = innerhtml_buffer;
     log('done populating block stats');
